@@ -16,3 +16,8 @@ Updated the hero portrait using the user-selected base image with raw-photo matc
 - Phone number scan: passed.
 - Public batch-year wording scan: passed.
 - Build: passed locally.
+
+## Additional exact-scale correction
+- Refined mobile hero scale again from user screenshot comparison.
+- Slightly reduced image from previous oversized state and lowered it to align closer with the reference hero proportions.
+- Current mobile rules: 390px width / 35% bottom at small screens, 370px / 36% for very small screens.
