@@ -21,3 +21,8 @@ Updated the hero portrait using the user-selected base image with raw-photo matc
 - Refined mobile hero scale again from user screenshot comparison.
 - Slightly reduced image from previous oversized state and lowered it to align closer with the reference hero proportions.
 - Current mobile rules: 390px width / 35% bottom at small screens, 370px / 36% for very small screens.
+
+## Reference-proportion canvas correction
+- Rebuilt the hero PNG onto a 1122x1402 transparent canvas to match the reference source image proportions.
+- This reduces the over-zoomed mobile appearance while preserving the selected face, outfit, and final raw-tone/eyebrow edits.
+- Visible subject is now padded and positioned closer to the reference hero asset, preventing the face from filling the entire mobile viewport.
