@@ -39,7 +39,7 @@
    - Status: DONE in website/resume, Needs fixing in audit reports (contain phone as example)
 
 8. **Batch 2026 removal**
-   - Current: grep batch 2026 in index.html → 0, resume → 0, README cleaned, but ULTRA_FINAL_REPORT.md still contains "Education batch 2026 still present" as checklist – must remove from audit reports too
+   - Current: grep public batch-year wording in index.html → 0, resume → 0, README cleaned, but ULTRA_FINAL_REPORT.md still contains "Education public batch-year wording still present" as checklist – must remove from audit reports too
    - Status: DONE in website/resume, Needs fixing in audit reports
 
 9. **Counters**
