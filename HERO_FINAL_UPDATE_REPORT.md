@@ -31,3 +31,10 @@ Updated the hero portrait using the user-selected base image with raw-photo matc
 - Removed drop-shadow filter so the PNG alpha cutout stays visually clean with no glow/box impression.
 - Increased mobile scale and raised the hero cutout to better match the reference composition while keeping the reference-proportion canvas.
 - Applied a subtle reference-style tone/contrast pass for richer skin tone, darker hair depth, and cleaner premium lighting without changing identity or pose.
+
+## High-quality alpha matte pass
+- Reprocessed hero cutout using an improved human segmentation/matting pass for cleaner alpha edges.
+- Rebuilt the PNG on the reference-sized 1122x1402 transparent canvas.
+- Removed all visual filters/shadows/boxes so the alpha edge stays clean when zoomed.
+- Slightly increased mobile scale and raised positioning to better match the reference hero proportions.
+- Verified true transparent PNG alpha and no checkerboard background.
