@@ -38,3 +38,10 @@ Updated the hero portrait using the user-selected base image with raw-photo matc
 - Removed all visual filters/shadows/boxes so the alpha edge stays clean when zoomed.
 - Slightly increased mobile scale and raised positioning to better match the reference hero proportions.
 - Verified true transparent PNG alpha and no checkerboard background.
+
+## Raw eyebrow + ultra alpha final pass
+- Re-edited hero using the uploaded raw photo as the eyebrow/skin reference.
+- Reprocessed the selected hero through a cleaner alpha-matting pass.
+- Rebuilt on a 1122x1402 reference-sized transparent canvas with subject bbox aligned close to the reference asset.
+- Preserved selected pose, outfit, glasses, earphones, and personality.
+- Verified corners are fully transparent and no checkerboard/background is baked into the PNG.
