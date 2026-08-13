@@ -45,3 +45,10 @@ Updated the hero portrait using the user-selected base image with raw-photo matc
 - Rebuilt on a 1122x1402 reference-sized transparent canvas with subject bbox aligned close to the reference asset.
 - Preserved selected pose, outfit, glasses, earphones, and personality.
 - Verified corners are fully transparent and no checkerboard/background is baked into the PNG.
+
+## Raw eyebrow precision pass
+- Re-edited hero with the uploaded raw photo as the eyebrow/skin-tone guide.
+- Eyebrows adjusted toward the raw photo's natural medium thickness, spacing, and density.
+- Re-cut using high-quality alpha matting and rebuilt on the reference 1122x1402 transparent canvas.
+- Preserved selected pose, clothing, glasses, earphones, and overall personality.
+- Verified true alpha transparency and no checkerboard/background baked into PNG.
