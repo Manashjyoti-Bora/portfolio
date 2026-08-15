@@ -52,3 +52,10 @@ Updated the hero portrait using the user-selected base image with raw-photo matc
 - Re-cut using high-quality alpha matting and rebuilt on the reference 1122x1402 transparent canvas.
 - Preserved selected pose, clothing, glasses, earphones, and overall personality.
 - Verified true alpha transparency and no checkerboard/background baked into PNG.
+
+## Realistic Arjun-style hairstyle + reference-body pass
+- Rebuilt hero with raw photo as face/skin identity reference and reference PNG as below-head/body/pose/clothing guide.
+- Added Arjun-Das-inspired hairstyle direction while preserving Manash identity as much as possible.
+- Used white shirt, loose tie, wired earphones, and reference-like developer hero body/personality.
+- Reprocessed as clean alpha PNG on 1122x1402 transparent canvas.
+- Verified transparent corners and no checkerboard/background baked in.
